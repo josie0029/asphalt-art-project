@@ -1,0 +1,17 @@
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+BackgroundPainter josie = new BackgroundPainter();
+josie.paintBackground("white", 8);
+
+    BasePainter tim = new BasePainter();
+    tim.moveToBase();
+    tim.setPaint(100);
+    tim.takeAllPaint();
+    tim.paintDuck("yellow");
+    
+    tim.paintEyes("black");
+    tim.paintBeak("orange");
+    
+  }
+}
